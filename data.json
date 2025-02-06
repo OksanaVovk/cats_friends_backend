@@ -1,0 +1,118 @@
+[
+  {
+    "img": "https://res.cloudinary.com/dli5mwa3d/image/upload/v1738581047/cat1_mltbxq.jpg",
+    "title": "Shyster",
+    "gender": "male",
+    "age": 7,
+    "weight": 2.2,
+    "liked": false,
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
+  },
+  {
+    "img": "https://res.cloudinary.com/dli5mwa3d/image/upload/v1738581152/cat2_i6nual.jpg",
+    "title": "Lazy",
+    "gender": "female",
+    "age": 6,
+    "weight": 2.1,
+    "liked": false,
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
+  },
+  {
+    "img": "https://res.cloudinary.com/dli5mwa3d/image/upload/v1738581169/cat3_wjkpw7.jpg",
+    "title": "Brandy",
+    "gender": "female",
+    "age": 1,
+    "weight": 0.3,
+    "liked": false,
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
+  },
+  {
+    "img": "https://res.cloudinary.com/dli5mwa3d/image/upload/v1738581179/cat4_oiwalz.jpg",
+    "title": "Milk",
+    "gender": "male",
+    "age": 15,
+    "weight": 4.2,
+    "liked": false,
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
+  },
+  {
+    "img": "https://res.cloudinary.com/dli5mwa3d/image/upload/v1738581186/cat5_dvugiw.jpg",
+    "title": "Blinds",
+    "gender": "male",
+    "age": 18,
+    "weight": 4.2,
+    "liked": false,
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
+  },
+  {
+    "img": "https://res.cloudinary.com/dli5mwa3d/image/upload/v1738581194/cat6_pkmszb.jpg",
+    "title": "Charles",
+    "gender": "male",
+    "age": 13,
+    "weight": 3.8,
+    "liked": false,
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
+  },
+  {
+    "img": "https://res.cloudinary.com/dli5mwa3d/image/upload/v1738581205/cat7_f9vvue.jpg",
+    "title": "Laptop",
+    "gender": "male",
+    "age": 12,
+    "weight": 3.2,
+    "liked": false,
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
+  },
+  {
+    "img": "https://res.cloudinary.com/dli5mwa3d/image/upload/v1738581213/cat8_zk8cgn.jpg",
+    "title": "Dorothy",
+    "gender": "female",
+    "age": 11,
+    "weight": 3.4,
+    "liked": false,
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
+  },
+  {
+    "img": "https://res.cloudinary.com/dli5mwa3d/image/upload/v1738581221/cat9_zaez7d.jpg",
+    "title": "Feather",
+    "gender": "male",
+    "age": 14,
+    "weight": 3.9,
+    "liked": false,
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
+  },
+  {
+    "img": "https://res.cloudinary.com/dli5mwa3d/image/upload/v1738581229/cat10_q5iuke.jpg",
+    "title": "Storm",
+    "gender": "male",
+    "age": 17,
+    "weight": 4.2,
+    "liked": false,
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
+  },
+  {
+    "img": "https://res.cloudinary.com/dli5mwa3d/image/upload/v1738581243/cat11_wtjcgg.jpg",
+    "title": "Candy",
+    "gender": "female",
+    "age": 15,
+    "weight": 3.7,
+    "liked": false,
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
+  },
+  {
+    "img": "https://res.cloudinary.com/dli5mwa3d/image/upload/v1738581260/cat12_pmz7vr.jpg",
+    "title": "Sporty",
+    "gender": "male",
+    "age": 18,
+    "weight": 4.1,
+    "liked": false,
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
+  },
+  {
+    "img": "https://res.cloudinary.com/dli5mwa3d/image/upload/v1738581271/cat13_deh9yn.jpg",
+    "title": "Fluffy",
+    "gender": "female",
+    "age": 13,
+    "weight": 3.2,
+    "liked": false,
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
+  }]
