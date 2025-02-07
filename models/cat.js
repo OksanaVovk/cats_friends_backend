@@ -7,7 +7,6 @@ const catSchema = Schema(
     gender: { type: String, require: true },
     age: { type: Number, default: null },
     weight: { type: Number, default: null },
-    liked: { type: Boolean, default: false },
     text: { type: String, require: true },
   },
   { versionKey: false, timestamps: true }

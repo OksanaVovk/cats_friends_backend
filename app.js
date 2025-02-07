@@ -4,6 +4,8 @@ const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const catsRouter = require('./routers/api/cats');
 const volonteersRouter = require('./routers/api/volonteers');
+const authRouter = require('./routers/api/auth');
+const userRouter = require('./routers/api/users');
 
 const app = express();
 app.use(
@@ -18,6 +20,8 @@ app.use(cookieParser());
 
 app.use('/api/cats', catsRouter);
 app.use('/api/volonteers', volonteersRouter);
+app.use('/api/auth', authRouter);
+app.use('/api/users', userRouter);
 
 app.use((_, res) => {
   res.status(404).json({ message: 'Not found' });
