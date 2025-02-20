@@ -1,3 +1,4 @@
 const updateFavorite = require('./updateFavorite');
+const updateAvatar = require('./updateAvatar');
 
-module.exports = { updateFavorite };
+module.exports = { updateFavorite, updateAvatar };

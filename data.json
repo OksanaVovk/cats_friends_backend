@@ -5,7 +5,6 @@
     "gender": "male",
     "age": 7,
     "weight": 2.2,
-    "liked": false,
     "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
   },
   {
@@ -14,7 +13,6 @@
     "gender": "female",
     "age": 6,
     "weight": 2.1,
-    "liked": false,
     "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
   },
   {
@@ -23,7 +21,6 @@
     "gender": "female",
     "age": 1,
     "weight": 0.3,
-    "liked": false,
     "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
   },
   {
@@ -32,7 +29,6 @@
     "gender": "male",
     "age": 15,
     "weight": 4.2,
-    "liked": false,
     "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
   },
   {
@@ -41,7 +37,6 @@
     "gender": "male",
     "age": 18,
     "weight": 4.2,
-    "liked": false,
     "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
   },
   {
@@ -50,7 +45,6 @@
     "gender": "male",
     "age": 13,
     "weight": 3.8,
-    "liked": false,
     "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
   },
   {
@@ -59,7 +53,6 @@
     "gender": "male",
     "age": 12,
     "weight": 3.2,
-    "liked": false,
     "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
   },
   {
@@ -68,7 +61,6 @@
     "gender": "female",
     "age": 11,
     "weight": 3.4,
-    "liked": false,
     "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
   },
   {
@@ -77,7 +69,6 @@
     "gender": "male",
     "age": 14,
     "weight": 3.9,
-    "liked": false,
     "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
   },
   {
@@ -86,7 +77,6 @@
     "gender": "male",
     "age": 17,
     "weight": 4.2,
-    "liked": false,
     "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
   },
   {
@@ -95,16 +85,14 @@
     "gender": "female",
     "age": 15,
     "weight": 3.7,
-    "liked": false,
     "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
   },
   {
-    "img": "https://res.cloudinary.com/dli5mwa3d/image/upload/v1738581260/cat12_pmz7vr.jpg",
+    "img": "https://res.cloudinary.com/dli5mwa3d/image/upload/v1739726009/cat12_uxno4v.jpg",
     "title": "Sporty",
     "gender": "male",
     "age": 18,
     "weight": 4.1,
-    "liked": false,
     "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
   },
   {
@@ -113,6 +101,5 @@
     "gender": "female",
     "age": 13,
     "weight": 3.2,
-    "liked": false,
     "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nullaquis sem at nibh elementum imperdiet. Duis sagittis ipsum."
   }]

@@ -17,5 +17,6 @@ router.post('/register', validateMiddlwareRegister, ctrlWrapper(ctrl.register));
 router.post('/login', validateMiddlwareLogin, ctrlWrapper(ctrl.login));
 
 router.get('/logout', auth, ctrlWrapper(ctrl.logout));
+router.get('/refresh', auth, ctrlWrapper(ctrl.refresh));
 
 module.exports = router;

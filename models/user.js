@@ -4,11 +4,12 @@ const bcrypt = require('bcryptjs');
 
 const userSchema = Schema(
   {
-    name: { type: String, require: true, minlength: 6 },
+    name: { type: String, require: true, minlength: 2 },
     email: { type: String, require: true, unique: true },
     password: { type: String, require: true, minlength: 6 },
     favorite: { type: Array, require: true, default: [] },
     token: { type: String, require: true },
+    avatarUrl: { type: String, require: true },
   },
   { versionKey: false, timestamps: true }
 );
@@ -24,8 +25,8 @@ const User = model('user', userSchema);
 
 const registerSchema = Joi.object({
   name: Joi.string().min(2).required(),
-  password: Joi.string().min(6).required(),
   email: Joi.string().email().required(),
+  password: Joi.string().min(6).required(),
 });
 
 const loginSchema = Joi.object({
@@ -35,7 +36,6 @@ const loginSchema = Joi.object({
 });
 
 const favoriteSchema = Joi.object({
-  favoriteCat: Joi.boolean().required(),
   catsId: Joi.string().required(),
 });
 
