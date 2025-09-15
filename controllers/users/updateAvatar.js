@@ -23,7 +23,6 @@
 // };
 
 // module.exports = updateAvatar;
-
 const { User } = require('../../models');
 const path = require('path');
 const fs = require('fs').promises;
@@ -37,19 +36,27 @@ const updateAvatar = async (req, res) => {
 
   const { path: tempUpload, originalname } = req.file;
   const { _id: id } = req.user;
-  const imageName = `${id}_${originalname}`;
 
   try {
-    await fs.mkdir(avatarsDir, { recursive: true }); // переконатися, що папка існує
+    // Створюємо папку avatars, якщо її нема
+    await fs.mkdir(avatarsDir, { recursive: true });
+
+    // Унікальне ім'я файлу (можеш залишити таке ж, як у multer)
+    const imageName = `${id}_${Date.now()}_${originalname}`;
     const resultUpload = path.join(avatarsDir, imageName);
 
+    // Переміщення файлу
     await fs.rename(tempUpload, resultUpload);
 
-    const avatarUrl = `/avatars/${imageName}`; // для фронта краще URL через /
+    // Шлях для фронта
+    const avatarUrl = `/avatars/${imageName}`;
+
+    // Оновлюємо користувача у БД
     await User.findByIdAndUpdate(id, { avatarUrl });
 
     res.json({ avatarUrl });
   } catch (err) {
+    // Якщо щось пішло не так, видаляємо тимчасовий файл
     await fs.unlink(tempUpload).catch(() => {});
     res.status(500).json({ message: err.message });
   }
