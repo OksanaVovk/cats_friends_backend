@@ -36,10 +36,11 @@ app.use((err, req, res, next) => {
 const path = require('path');
 
 // Віддавати React build
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public', 'build')));
 
-// Для всіх інших маршрутів, що не починаються з /api
+// Для всіх інших маршрутів (не API) віддавати index.html
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile(path.join(__dirname, 'public', 'build', 'index.html'));
 });
+
 module.exports = app;
