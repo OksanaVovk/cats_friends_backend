@@ -14,7 +14,7 @@ const app = express();
 // Enable CORS
 app.use(
   cors({
-    origin: true, // allow requests from any origin
+    origin: ['https://oksanavovk.github.io', 'http://localhost:3000'],
     credentials: true,
   })
 );
@@ -31,18 +31,6 @@ app.use('/api/users', userRouter);
 
 // Serve avatars as static files
 app.use('/avatars', express.static(path.join(__dirname, 'public/avatars')));
-
-// Serve React build files
-const buildPath = path.join(__dirname, 'public', 'build');
-app.use(express.static(buildPath));
-
-// All other routes (except /api and /avatars) → index.html
-app.get('*', (req, res) => {
-  if (req.path.startsWith('/api/') || req.path.startsWith('/avatars/')) {
-    return res.status(404).json({ message: 'Not found' });
-  }
-  res.sendFile(path.join(buildPath, 'index.html'));
-});
 
 // Global error handler
 app.use((err, req, res, next) => {
