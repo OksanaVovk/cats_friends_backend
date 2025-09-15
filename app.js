@@ -10,7 +10,8 @@ const userRouter = require('./routers/api/users');
 const app = express();
 app.use(
   cors({
-    origin: ['https://oksanavovk.github.io', 'http://localhost:3000'],
+    // origin: ['https://oksanavovk.github.io', 'http://localhost:3000'],
+    origin: true,
     credentials: true,
   })
 );
@@ -32,4 +33,13 @@ app.use((err, req, res, next) => {
   res.status(status).json({ message });
 });
 
+const path = require('path');
+
+// Віддавати React build
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Для всіх інших маршрутів, що не починаються з /api
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
 module.exports = app;
